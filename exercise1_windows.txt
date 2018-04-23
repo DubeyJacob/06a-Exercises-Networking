@@ -15,57 +15,217 @@ If you run into trouble, Google is your friend; there should be a lot of availab
 '''
 ----------------------------------
 hostname
+LAPTOP-JMB1MEB6
 
-
-
+Retrieving the name of the laptop
 
 ----------------------------------
 netstat
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:5354         LAPTOP-JMB1MEB6:49668  ESTABLISHED
+  TCP    127.0.0.1:5354         LAPTOP-JMB1MEB6:49669  ESTABLISHED
+  TCP    127.0.0.1:9502         LAPTOP-JMB1MEB6:61943  ESTABLISHED
+  TCP    127.0.0.1:27015        LAPTOP-JMB1MEB6:49757  ESTABLISHED
+  TCP    127.0.0.1:49668        LAPTOP-JMB1MEB6:5354   ESTABLISHED
+  TCP    127.0.0.1:49669        LAPTOP-JMB1MEB6:5354   ESTABLISHED
+  TCP    127.0.0.1:49757        LAPTOP-JMB1MEB6:27015  ESTABLISHED
+  TCP    127.0.0.1:49787        LAPTOP-JMB1MEB6:49858  ESTABLISHED
+  TCP    127.0.0.1:49818        LAPTOP-JMB1MEB6:49819  ESTABLISHED
+  TCP    127.0.0.1:49819        LAPTOP-JMB1MEB6:49818  ESTABLISHED
+  TCP    127.0.0.1:49820        LAPTOP-JMB1MEB6:49821  ESTABLISHED
+  TCP    127.0.0.1:49821        LAPTOP-JMB1MEB6:49820  ESTABLISHED
+  TCP    127.0.0.1:49822        LAPTOP-JMB1MEB6:49823  ESTABLISHED
+  TCP    127.0.0.1:49823        LAPTOP-JMB1MEB6:49822  ESTABLISHED
+  TCP    127.0.0.1:49824        LAPTOP-JMB1MEB6:49825  ESTABLISHED
+  TCP    127.0.0.1:49825        LAPTOP-JMB1MEB6:49824  ESTABLISHED
+  TCP    127.0.0.1:49858        LAPTOP-JMB1MEB6:49787  ESTABLISHED
+  TCP    127.0.0.1:61943        LAPTOP-JMB1MEB6:9502   ESTABLISHED
+  TCP    127.0.0.1:63033        LAPTOP-JMB1MEB6:63034  ESTABLISHED
+  TCP    127.0.0.1:63034        LAPTOP-JMB1MEB6:63033  ESTABLISHED
+  TCP    127.0.0.1:63035        LAPTOP-JMB1MEB6:63036  ESTABLISHED
+  TCP    127.0.0.1:63036        LAPTOP-JMB1MEB6:63035  ESTABLISHED
+  TCP    149.161.158.183:61960  msnbot-65-52-108-215:https  ESTABLISHED
+  TCP    149.161.158.183:61962  ec2-52-41-121-70:https  ESTABLISHED
+  TCP    149.161.158.183:61993  ec2-52-40-43-149:https  ESTABLISHED
+  TCP    149.161.158.183:62037  104.16.103.24:https    ESTABLISHED
+  TCP    149.161.158.183:62038  a104-79-146-86:https   ESTABLISHED
+  TCP    149.161.158.183:62056  ec2-54-68-141-193:https  ESTABLISHED
+  TCP    149.161.158.183:62895  db5sch101101739:https  ESTABLISHED
+  TCP    149.161.158.183:63016  lb-192-30-253-124-iad:https  ESTABLISHED
+  TCP    [::1]:1696             LAPTOP-JMB1MEB6:49817  ESTABLISHED
+  TCP    [::1]:49817            LAPTOP-JMB1MEB6:1696   ESTABLISHED
+  TCP    [2001:18e8:2:28b8:c8cf:804e:b454:ebc9]:62031  iq-in-xbc:5228         ESTABLISHED
+  TCP    [2001:18e8:2:28b8:c8cf:804e:b454:ebc9]:63067  ord37s19-in-x13:https  ESTABLISHED
 
-
-
+Retrieving connections to the network that are established on this laptop
 
 ----------------------------------
 ipconfig /all
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-JMB1MEB6
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : indiana.edu
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Physical Address. . . . . . . . . : A8-1E-84-42-93-DA
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 5A-00-E3-92-06-A1
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : indiana.edu
+   Description . . . . . . . . . . . : Qualcomm Atheros QCA9377 Wireless Network Adapter
+   Physical Address. . . . . . . . . : 58-00-E3-92-06-A1
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:18e8:2:28b8:c8cf:804e:b454:ebc9(Preferred)
+   Temporary IPv6 Address. . . . . . : 2001:18e8:2:28b8:6597:7917:a14a:5073(Deprecated)
+   Link-local IPv6 Address . . . . . : fe80::c8cf:804e:b454:ebc9%17(Preferred)
+   IPv4 Address. . . . . . . . . . . : 149.161.158.183(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.192.0
+   Lease Obtained. . . . . . . . . . : Thursday, April 12, 2018 3:40:27 PM
+   Lease Expires . . . . . . . . . . : Thursday, April 12, 2018 4:40:26 PM
+   Default Gateway . . . . . . . . . : fe80::18e8:2:28b8:1%17
+                                       149.161.128.1
+   DHCP Server . . . . . . . . . . . : 10.79.1.222
+   DHCPv6 IAID . . . . . . . . . . . : 123207907
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-20-13-0F-1C-A8-1E-84-42-93-DA
+   DNS Servers . . . . . . . . . . . : 10.79.1.1
+                                       10.234.220.20
+                                       10.79.1.2
+   Primary WINS Server . . . . . . . : 129.79.1.200
+   Secondary WINS Server . . . . . . : 129.79.5.200
+                                       134.68.220.14
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 58-00-E3-92-06-A2
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter Local Area Connection* 11:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Teredo Tunneling Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:0:9d38:6ab8:89a:2ae6:6a5e:6148(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::89a:2ae6:6a5e:6148%13(Preferred)
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 218103808
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-20-13-0F-1C-A8-1E-84-42-93-DA
+   NetBIOS over Tcpip. . . . . . . . : Disabled
 
 
-
-
+Retrieving data about connection paths to the internet/network.
 ----------------------------------
 nslookup www.iub.edu
+Server:  ns6.iu.edu
+Address:  10.79.1.1
 
+Name:    www.iub.edu
+Addresses:  129.79.78.186
+          129.79.78.185
 
-
+Retrieving the IP address for the IU website
 
 ----------------------------------
 nslookup www.google.com
+Server:  ns6.iu.edu
+Address:  10.79.1.1
 
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2607:f8b0:4009:806::2004
+          172.217.0.4
 
-
+Retrieving the IP address for the Google website
 
 ----------------------------------
 ping www.iub.edu
+Pinging www.iub.edu [129.79.78.185] with 32 bytes of data:
+Reply from 129.79.78.185: bytes=32 time=3ms TTL=61
+Reply from 129.79.78.185: bytes=32 time=3ms TTL=61
+Reply from 129.79.78.185: bytes=32 time=2ms TTL=61
+Reply from 129.79.78.185: bytes=32 time=2ms TTL=61
 
+Ping statistics for 129.79.78.185:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 3ms, Average = 2ms
 
-
+showing the speed of the IU website and how quick the internet connection is on this laptop to the website
 
 ----------------------------------
 ping www.google.com
+Pinging www.google.com [2607:f8b0:4009:804::2004] with 32 bytes of data:
+Reply from 2607:f8b0:4009:804::2004: time=9ms
+Reply from 2607:f8b0:4009:804::2004: time=25ms
+Reply from 2607:f8b0:4009:804::2004: time=80ms
+Reply from 2607:f8b0:4009:804::2004: time=135ms
 
+Ping statistics for 2607:f8b0:4009:804::2004:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 135ms, Average = 62ms
 
-
+showing the speed of the Google website and how quick the internet connection is on this laptop to the website
 
 ----------------------------------
 tracert www.iub.edu
+Tracing route to www.iub.edu [129.79.78.185]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     2 ms  bl-149-161-128-2.reserved.iu.edu [149.161.128.2]
+  2    28 ms     2 ms     2 ms  ae-15.0.br2.bldc.net.uits.iu.edu [134.68.3.74]
+  3     3 ms     3 ms     2 ms  ae-33.932.dcr3.bldc.net.uits.iu.edu [134.68.3.129]
+  4     2 ms     2 ms     2 ms  zeus2-iub.gateway.indiana.edu [129.79.78.185]
 
 
+Trace complete.
 
-
+Traced the network path it took to get to the IU website from the initial request.
 ----------------------------------
 tracert www.google.com
+Tracing route to www.google.com [2607:f8b0:4009:804::2004]
+over a maximum of 30 hops:
 
+  1    90 ms     2 ms     2 ms  ae-20.2232.cr5.bldc.net.uits.iu.edu [2001:18e8:2:28b8::2]
+  2    33 ms     2 ms     2 ms  ae-15.0.br2.bldc.net.uits.iu.edu [2001:18e8:3:f016::2]
+  3     4 ms     4 ms     4 ms  2001:18e8:ff00:90::1
+  4     6 ms     6 ms     5 ms  2001:18e8:ff00:13::1
+  5     9 ms     8 ms     8 ms  2001:18e8:ffff:10::1
+  6     9 ms     9 ms     9 ms  2001:18e8:ffff:10::2
+  7     9 ms    11 ms     9 ms  google-peer-equinix.wiscnet.net [2001:4e0:0:310d::2]
+  8    68 ms     9 ms    11 ms  2001:4860:0:100d::e
+  9    76 ms     9 ms    10 ms  2001:4860:0:1::193
+ 10    70 ms     8 ms     8 ms  ord38s18-in-x04.1e100.net [2607:f8b0:4009:804::2004]
 
+Trace complete.
 
+Traced the network path it took to get to the Google website from the initial request.
 
 ----------------------------------
 telnet esqsoft.com 80
@@ -73,3 +233,108 @@ telnet esqsoft.com 80
 GET /examples/troubleshooting-http-using-telnet.htm HTTP/1.1
 host: esqsoft.com
 
+
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 12 Apr 2018 23:07:07 GMT
+Etag: "2c8a692a30dad775039c7f8d4d4c94f7"
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: Netlify
+
+cc9
+<!DOCTYPE html><html><head><meta charset="utf-8">
+                                                 <title>HTTP Help: How to test HTTP using Telnet</title>
+                                                                                                        <meta name="keywords" content="upload,pictures,photos,internet,website">
+                                                        </head><body><script language="JavaScript" src="../template/template1.js"></script><script>document.write(header())</script>
+                                                            <!-- start: content -->
+
+
+                                                                                   <style>
+                                                                                          xmp{ margin-top: 0px; padding-left: 10px;}
+            .notes{ font-size: 8pt; }
+                                     </style>
+
+                                             <h1>HTTP Help: How to test HTTP using Telnet</h1>
+
+                                                                                              <p>Telnet is a long-time favorite for troubleshooting connection issues. It can be used to attempt to connect to a server on a given port.
+                                                                                                                Generally you can quickly ascertain whether something is "listening" on the remote side--which will confirm that (1) you can get to the remote server
+                     from your test box, and (2) that a server is running and bound to the specified port you requested.
+
+<p>More specifically, telnet can be used to test HTTP scenarios, effectively stripping through all the friendly layers a browser usually hides from web visitor eyes.
+                                             Troubleshooting HTTP using telnet is a great way to review exactly what is getting returned to your browser during a web request for a particular url.
+                                                                           This allows you to see headers and collect other information related to the web server.
+
+                                          <p>Need a good HTTP troubleshooting reference? Here are some
+                                                                                                      <a target="_blank" href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fs%3Furl%3Dsearch-alias%253Daps%26field-keywords%3Dhttp%26x%3D0%26y%3D0&tag=esqsoftcom-20&linkCode=ur2&camp=1789&creative=9325">HTTP resources</a><img src="//www.assoc-amazon.com/e/ir?t=esqsoftcom-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+
+                                        <p>Here is a simple example making an HTTP 1.1 request. First, get to a command
+prompt. For example, if you are using <code>Windows, Start -> Run -> cmd</code>.
+                                                                                (Though if you are using Windows, you may want to use something like CYGWIN, or Putty rather than the DOS prompt.)
+
+                                                                          <p>INPUT:<xmp>
+                                                                                        >telnet www.esqsoft.globalservers.com 80
+        </xmp>
+              <div class="notes">
+                                 Note: this launches <b>telnet</b> and tells it to look up and connect to the server for "www.esqsoft.globalservers.com" on port 80.
+                                            </div>
+
+                                                  <p>OUTPUT:<xmp>
+                                                                 Trying 64.136.56.122...
+                                                                                        Connected to www.esqsoft.globalservers.com.
+           Escape character is '^]'.
+                                    </xmp>
+
+                                          <p>INPUT:
+                                                   <xmp>
+                                                        GET /index.htm HTTP/1.1
+                                                                               host: www.esqsoft.globalservers.com
+                                                                                                                  <line
+feed>
+     </xmp>
+           <div class="notes">
+                              Notes:
+                                    <br>1) no OS cursor caret, the connection is open so you just get a blank line waiting for input.
+             <br>2) need to hit &lt;enter&gt; twice after the "host:"
+                                                                     </div>
+
+
+                                                                           <p>OUTPUT:
+                                                                                     <code><xmp>
+                                                                                                HTTP/1.1 200 OK
+                                                                                                               Date: Mon, 18 Apr 2005 16:38:00 GMT
+                          Server: Apache/1.3.27 (Unix)  (Red-Hat/Linux) mod_ssl/2.8.12 OpenSSL/0.9.6 PHP/4.1.2 mod_perl/1.27 FrontPage/5.0.2.2623
+                         Last-Modified: Thu, 01 Jul 2004 01:16:05 GMT
+                                                                     ETag: "158e008c-182c-40e365d5"
+                                                                                                   Accept-Ranges: bytes
+                                                                                                                       Content-Length: 6188
+                   Connection: close
+                                    Content-Type: text/html
+
+                                                           <html>
+                                                                 <head>
+                                                                       <title>...
+
+                                                                                 ...lots of HTML code here...
+
+                                                                                                             </body></html>
+   Connection closed by foreign host.
+                                     >
+                                      </xmp></code>
+
+
+                                                   <h2>
+                                                       Additional keywords: troubleshooting, http, telnet
+                                                                                                         </h2>
+
+
+                                                                                                              <!-- end:
+content -->
+           <script>document.write(footer(''))</script></body></html>
+
+0
+
+I Honestly have no clue what is going on here... Oops...

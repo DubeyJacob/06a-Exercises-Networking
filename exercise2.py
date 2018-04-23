@@ -20,10 +20,15 @@ def multiply(a, b):
 
 def divide(a, b):
 	"""
-	
-	
-	
+	>>> divide(10, 2)
+	5.0
+	>>> divide(15, 3)
+	5.0
+	>>> divide(12, 3)
+	4.0
 	"""
+	return a / b
+
 	try:
 		return float(a) / float(b)
 	except ValueError:
@@ -34,10 +39,12 @@ def divide(a, b):
 
 def check_proximity(xy1, xy2):
 	"""
-	
-	
-	
-	
+	>>> check_proximity((10,10), (10,10))
+	False
+	>>> check_proximity((11,11), (11,12))
+	True
+	>>> check_proximity((0,0), (0,0))
+	False
 	"""
 	if type(xy1) is not tuple or type(xy2) is not tuple: return False
 	if len(xy1) != 2 or len(xy2) != 2: return False
@@ -50,10 +57,12 @@ def check_proximity(xy1, xy2):
 
 def update(x,y,dx,dy,gravity,air_resistance,WIDTH,HEIGHT):
 	"""
-		
-		
-		
-		
+		>>> update(1,2,3,4,5,6,7,8)
+
+		>>> update(2,4,6,8,10,12,14,16)
+
+		>>> update(0.5,25,6,0.33,19,43,0.1,1.55)
+
 	"""
 	dy = dy + gravity
 	dx *= (1.0-air_resistance)

@@ -18,33 +18,32 @@ logger = logging.getLogger(__name__)
 
 # -----------------------
 
-
-weather = 'http://samples.openweathermap.org/data/2.5/weather?q=London\u0026appid=b1b15e88fa797225412429c1c50c122a1'
 '''
+weather = 'http://samples.openweathermap.org/data/2.5/weather?q=London\u0026appid=b1b15e88fa797225412429c1c50c122a1'
+
 w = requests.get(weather)
 print(w.json())
 data = w.json()
 for key in data:
 	print('{0} -> {1}'.format(key,data[key]))
+
+
+# Humidity = 81
 '''
-
-
-# -----------------------
-
-
+'''
 contacts = 'https://jsonplaceholder.typicode.com/users'
-'''
+
 c = requests.get(contacts)
 print(c.json())
 data = c.json()
 for d in data:
 	for key in d:
 		print('{0} -> {1}'.format(key, d[key]))
+
+
+
+# Chaim_McDermott@dana.io
 '''
-
-
-# -----------------------
-
 
 '''
 To count the number of times a substring is represented in a string, you can use the string count() method
